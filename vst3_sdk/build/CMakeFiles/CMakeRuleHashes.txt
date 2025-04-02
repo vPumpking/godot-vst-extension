@@ -1,0 +1,34 @@
+# Hashes of file build rules.
+4975a95ea0ba9e4faaee71cc00d5865a VST3/Release/again.vst3/Contents/Resources/Snapshots/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png
+4bc673ae061bc16c55f9bc1397615af4 VST3/Release/again.vst3/Contents/Resources/Snapshots/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png
+5b469bd9fa23fefb1533627f46a0a058 VST3/Release/again.vst3/Contents/Resources/Snapshots/84E8DE5F92554F5396FAE4133C935A18_snapshot.png
+1a1c923131b21bd20c9e455c74c428c0 VST3/Release/again.vst3/Contents/Resources/Snapshots/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png
+073bf61ec4db3eb05a78dae836a29a57 VST3/Release/again.vst3/Contents/Resources/again.uidesc
+00344aa2d0a50007e4f3f807723cc454 VST3/Release/again.vst3/Contents/Resources/background.png
+3547111f8f78c0b67912df176dd644dc VST3/Release/again.vst3/Contents/Resources/slider_background.png
+3d56df903529238b43c61108dbad285a VST3/Release/again.vst3/Contents/Resources/slider_handle.png
+49ad327772fd8100fe5f51ab57d1c516 VST3/Release/again.vst3/Contents/Resources/slider_handle_2.0x.png
+ae1a6feb1d5d65518a35c026fad5176a VST3/Release/again.vst3/Contents/Resources/vu_off.png
+e37e2371a76ad37377869e043d26ac0b VST3/Release/again.vst3/Contents/Resources/vu_on.png
+5865b543b393ca502e4d35caefeb6ffa VST3/Release/host-checker.vst3/Contents/Resources/bypass.png
+a02ba9a0e6dbbeb4ff88c758cb02656c VST3/Release/host-checker.vst3/Contents/Resources/hostchecker.uidesc
+996f66ad8c44ea1763340af468dfd2b4 VST3/Release/host-checker.vst3/Contents/Resources/knob.png
+b5ac5b1da09438574074d4be9559a1d5 VST3/Release/note-expression-synth.vst3/Contents/Resources/Snapshots/41466D9BB0654576B641098F686371B3_snapshot.png
+26d7278a9b63edcefe12896b3c66eb28 VST3/Release/note-expression-synth.vst3/Contents/Resources/Snapshots/41466D9BB0654576B641098F686371B3_snapshot_2.0x.png
+e8fa8d161e1b0e182a457beb7de8d7b5 VST3/Release/note-expression-synth.vst3/Contents/Resources/about.png
+a437a03d0034b4088edfb0ac35015502 VST3/Release/note-expression-synth.vst3/Contents/Resources/background.png
+0f7afd7aa182e64553a8e87b3794ae6d VST3/Release/note-expression-synth.vst3/Contents/Resources/groupframe.png
+c42cdbc3b7e908d1ad9fa17f723c645b VST3/Release/note-expression-synth.vst3/Contents/Resources/knob big.png
+47b7f9806a64736f1cfd8844990971c5 VST3/Release/note-expression-synth.vst3/Contents/Resources/knob.png
+eafba1423bd012dadefeaf19d9771821 VST3/Release/note-expression-synth.vst3/Contents/Resources/knob2.png
+ce7523a496817779c48e7eba3b992e65 VST3/Release/note-expression-synth.vst3/Contents/Resources/note_expression_synth.uidesc
+ef31d5952765107c2f3f47247ae764b8 VST3/Release/note-expression-synth.vst3/Contents/Resources/vst3_logo_small.png
+1441b78e65e597dc2a7308baa413b5e1 VST3/Release/note-expression-text.vst3/Contents/Resources/plug.uidesc
+31fedd50001be6f22b00b316aedfc05f VST3/Release/panner.vst3/Contents/Resources/Snapshots/A2EAF7DB320640F48EDE380DDF89562C_snapshot.png
+28e990b42e1210187cd70627835511d7 VST3/Release/panner.vst3/Contents/Resources/Snapshots/A2EAF7DB320640F48EDE380DDF89562C_snapshot_2.0x.png
+b96998c11438e7a64acda47869438498 VST3/Release/panner.vst3/Contents/Resources/animation_knob.png
+49c0ec882ac10cbddb910e76d2d71c03 VST3/Release/panner.vst3/Contents/Resources/animation_knob_3x.png
+6b00e9c3b92f4ca40d361dafefe3dfad VST3/Release/panner.vst3/Contents/Resources/background.png
+d6f59b58aea425b8cd65125e24e89fae VST3/Release/panner.vst3/Contents/Resources/background_2x.png
+f06cd8af791eaf7d2cd0063fbfe8aa0c VST3/Release/panner.vst3/Contents/Resources/background_3x.png
+e441d055ed22c8b148b9f5ba7b2f1b1b VST3/Release/panner.vst3/Contents/Resources/plug.uidesc

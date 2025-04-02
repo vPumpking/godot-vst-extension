@@ -1,7 +1,14 @@
-#ifndef EXAMPLE_REGISTER_TYPES_H
-#define EXAMPLE_REGISTER_TYPES_H
+#ifndef GODOT_VST_EXTENSION_REGISTER_TYPES_H
+#define GODOT_VST_EXTENSION_REGISTER_TYPES_H
 
-void initialize_gdextension_types();
-void uninitialize_gdextension_types();
+#include <godot_cpp/core/defs.hpp>
+#include <godot_cpp/godot.hpp>
 
-#endif // EXAMPLE_REGISTER_TYPES_H
+namespace godot {
+
+void initialize_vst_extension_module(ModuleInitializationLevel p_level);
+void uninitialize_vst_extension_module(ModuleInitializationLevel p_level);
+
+} // namespace godot
+
+#endif // GODOT_VST_EXTENSION_REGISTER_TYPES_H

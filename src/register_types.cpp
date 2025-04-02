@@ -1,35 +1,45 @@
 #include "register_types.h"
-#include <gdextension_interface.h>
+#include "vst_host.h"
 #include <godot_cpp/core/class_db.hpp>
-#include <godot_cpp/core/defs.hpp>
-#include <godot_cpp/godot.hpp>
 
-using namespace godot;
+namespace godot {
 
-void initialize_gdextension_types(ModuleInitializationLevel p_level)
-{
-	if (p_level != MODULE_INITIALIZATION_LEVEL_SCENE) {
-		return;
-	}
-	//GDREGISTER_CLASS(YourClass);
+void initialize_vst_extension_module(ModuleInitializationLevel p_level) {
+    if (p_level == MODULE_INITIALIZATION_LEVEL_SCENE) {
+        ClassDB::register_class<VSTHost>();
+    }
 }
 
-void uninitialize_gdextension_types(ModuleInitializationLevel p_level) {
-	if (p_level != MODULE_INITIALIZATION_LEVEL_SCENE) {
-		return;
-	}
+void uninitialize_vst_extension_module(ModuleInitializationLevel p_level) {
+    if (p_level == MODULE_INITIALIZATION_LEVEL_SCENE) {
+        // Cleanup if needed
+    }
 }
 
-extern "C"
-{
-	// Initialization
-	GDExtensionBool GDE_EXPORT example_library_init(GDExtensionInterfaceGetProcAddress p_get_proc_address, GDExtensionClassLibraryPtr p_library, GDExtensionInitialization *r_initialization)
-	{
-		GDExtensionBinding::InitObject init_obj(p_get_proc_address, p_library, r_initialization);
-		init_obj.register_initializer(initialize_gdextension_types);
-		init_obj.register_terminator(uninitialize_gdextension_types);
-		init_obj.set_minimum_library_initialization_level(MODULE_INITIALIZATION_LEVEL_SCENE);
+} // namespace godot
 
-		return init_obj.init();
-	}
+extern "C" {
+
+void initialize_vst_extension(godot::ModuleInitializationLevel p_level) {
+    godot::initialize_vst_extension_module(p_level);
 }
+
+void uninitialize_vst_extension(godot::ModuleInitializationLevel p_level) {
+    godot::uninitialize_vst_extension_module(p_level);
+}
+
+GDExtensionBool GDE_EXPORT vst_extension_init(
+    GDExtensionInterfaceGetProcAddress p_get_proc_address,
+    GDExtensionClassLibraryPtr p_library,
+    GDExtensionInitialization *r_initialization
+) {
+    godot::GDExtensionBinding::InitObject init_obj(p_get_proc_address, p_library, r_initialization);
+    
+    init_obj.register_initializer(initialize_vst_extension);
+    init_obj.register_terminator(uninitialize_vst_extension);
+    init_obj.set_minimum_library_initialization_level(godot::MODULE_INITIALIZATION_LEVEL_SCENE);
+    
+    return init_obj.init();
+}
+
+} // extern "C"
